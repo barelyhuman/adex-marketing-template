@@ -1,0 +1,44 @@
+{
+  "name": "adex-template",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Default JS Template for Quickstart with Adex",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node dist/server --port 3000",
+    "db:latest": "pnpm knex migrate:latest",
+    "db:rollback": "pnpm knex migrate:rollback"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@preact/preset-vite": "^2.9.0",
+    "adex": "0.0.18-alpha.6",
+    "argon2": "^0.41.1",
+    "better-sqlite3": "^11.9.1",
+    "cookie": "^1.0.2",
+    "crc-32": "^1.2.2",
+    "knex": "^3.1.0",
+    "preact": "^10.22.1"
+  },
+  "devDependencies": {
+    "@barelyhuman/prettier-config": "^2.0.2",
+    "@twind/core": "^1.1.3",
+    "@twind/preset-autoprefix": "^1.0.7",
+    "@twind/preset-tailwind": "^1.1.4",
+    "adex-adapter-node": "^0.0.17",
+    "autoprefixer": "^10.4.19",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^3.4.5",
+    "vite": "^5.3.3"
+  },
+  "packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3"
+    ]
+  },
+  "prettier": "@barelyhuman/prettier-config"
+}
