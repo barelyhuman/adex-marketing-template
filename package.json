@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@preact/preset-vite": "^2.9.0",
-    "adex": "0.0.18-alpha.6",
+    "adex": "0.0.19",
     "argon2": "^0.41.1",
     "better-sqlite3": "^11.9.1",
     "cookie": "^1.0.2",
